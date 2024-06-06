@@ -8,4 +8,4 @@ COPY requirements.txt /app
 # Instala las dependencias necesarias
 RUN pip install -r /app/requirements.txt
 # Comando para ejecutar la aplicación
-CMD ["python", "/app/src/demo.py"
+CMD ["python", "/app/src/modelo.py"]
